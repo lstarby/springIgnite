@@ -14,7 +14,7 @@ import com.tests.springIgnite.repository.EmployeeRepository;
 
 @Configuration
 @EnableIgniteRepositories(basePackageClasses = EmployeeRepository.class)
-@ComponentScan(basePackages = "com.baeldung.ignite.spring.repository")
+@ComponentScan(basePackages = "com.tests.springIgnite.repository")
 public class SpringDataConfig {
 
     @Bean
